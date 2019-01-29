@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'ABOtpView'
 ```
 
+## Usage
+
+
 ## Author
 
 anuranBarman, anuranbarman2k15@rediffmail.com

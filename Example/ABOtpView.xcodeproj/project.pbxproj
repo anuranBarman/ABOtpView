@@ -212,7 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NFL89QC439;
+						DevelopmentTeam = 29HRCWU889;
 						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -475,11 +475,11 @@
 			baseConfigurationReference = B3FF904261B0F156AD5AA3B8 /* Pods-ABOtpView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFL89QC439;
+				DEVELOPMENT_TEAM = 29HRCWU889;
 				INFOPLIST_FILE = ABOtpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mranuran.ABOtpView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mranuran.ab.otpview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -490,11 +490,11 @@
 			baseConfigurationReference = D0D7BFB95F4C7D5003C70911 /* Pods-ABOtpView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFL89QC439;
+				DEVELOPMENT_TEAM = 29HRCWU889;
 				INFOPLIST_FILE = ABOtpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mranuran.ABOtpView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mranuran.ab.otpview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
