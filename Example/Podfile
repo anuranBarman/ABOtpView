@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ABOtpView_Example' do
+  pod 'ABOtpView', :path => '../'
+
+  target 'ABOtpView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
