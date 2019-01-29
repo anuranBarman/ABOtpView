@@ -31,7 +31,7 @@ A readymade view to validate your OTP with border color, border style and delega
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ABOtpView/Classes/**/*'
-  
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'ABOtpView' => ['ABOtpView/Assets/*.png']
   # }

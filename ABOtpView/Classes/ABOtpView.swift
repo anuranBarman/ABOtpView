@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ABOtpView: UIView,UITextFieldDelegate {
+public class ABOtpView: UIView,UITextFieldDelegate {
     
     var numberOfDigits:Int!
     var borderType:BorderType!
@@ -19,7 +19,7 @@ class ABOtpView: UIView,UITextFieldDelegate {
     var delegate:ABOtpViewDelegate?
     
     
-    convenience init(frame:CGRect,numberOfDigits:Int,borderType:BorderType = .SQUARE,borderColor:UIColor = .black,delegate:ABOtpViewDelegate){
+    convenience public init(frame:CGRect,numberOfDigits:Int,borderType:BorderType = .SQUARE,borderColor:UIColor = .black,delegate:ABOtpViewDelegate){
         self.init(frame: frame)
         self.numberOfDigits=numberOfDigits
         self.borderType = borderType
@@ -104,12 +104,12 @@ class ABOtpView: UIView,UITextFieldDelegate {
         return otp
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if string == "" {
             return true
         }else if textField.text!.count == 0 {
@@ -121,11 +121,11 @@ class ABOtpView: UIView,UITextFieldDelegate {
     
 }
 
-enum BorderType {
+public enum BorderType {
     case ROUND,SQUARE,SEMI_ROUND
 }
 
-protocol ABOtpViewDelegate {
+public protocol ABOtpViewDelegate {
     
     func didEnterOTP(otp:String)
     
