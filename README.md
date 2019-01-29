@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'ABOtpView'
 ```
 
+## Screenshot
+
+![Screenshot](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot")
+
 ## Usage
 
 ```swift

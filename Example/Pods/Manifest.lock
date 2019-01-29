@@ -1,0 +1,16 @@
+PODS:
+  - ABOtpView (0.1.0)
+
+DEPENDENCIES:
+  - ABOtpView (from `../`)
+
+EXTERNAL SOURCES:
+  ABOtpView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABOtpView: 8ecbf6f4457e4803f7031d9e40c26fd337075b95
+
+PODFILE CHECKSUM: c9c3662b45cee603dd60494a640902395b7d41bc
+
+COCOAPODS: 1.5.3
